@@ -9,7 +9,7 @@ This project demonstrates how to perform sentiment analysis on IMDb movie review
 
 The dataset used for this sentiment analysis task contains two columns:
 
-1. **reviews**: This column contains the text of IMDb movie reviews.
+1. **review**: This column contains the text of IMDb movie reviews.
 2. **sentiment**: This column contains the corresponding sentiment label for each review. The sentiment label is binary, with 0 representing a negative sentiment and 1 representing a positive sentiment.
 
 Please ensure that your dataset is in CSV format with the appropriate column names ('reviews' and 'sentiment').
@@ -43,32 +43,3 @@ The sentiment analysis is performed in a Jupyter notebook named "IMDb_Reviews_Se
 5. **Training the Model**: A Naive Bayes classifier (MultinomialNB) is used to train the sentiment analysis model. The model is trained on the training data with corresponding sentiment labels.
 
 6. **Making Predictions and Evaluation**: The trained model is used to predict sentiment labels for the test data. The accuracy, classification report, and confusion matrix are calculated to evaluate the model's performance.
-
-## How to Use
-
-1. Make sure you have installed the required dependencies as mentioned in the "Dependencies" section.
-
-2. Prepare your dataset in CSV format with two columns: 'reviews' and 'sentiment'.
-
-3. Replace `'path_to_your_dataset.csv'` in the notebook with the actual path to your dataset file.
-
-4. Run each cell in the notebook to perform data preprocessing, model training, and evaluation.
-
-5. After running the entire notebook, you will see the accuracy, classification report, and confusion matrix, which will provide insights into the model's performance.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- The dataset used in this project was obtained from IMDb (Internet Movie Database) and is not the property of the author. The dataset is for educational and research purposes only.
-
-## Disclaimer
-
-This project is for educational purposes only and is not intended for any commercial use. The author does not claim ownership of the dataset used for training the model and is not responsible for any misuse of the code or the dataset.
-
----
-Replace `[LICENSE]` with the appropriate path to the license file, if applicable. Also, feel free to modify the "Acknowledgments" section to credit the sources of the dataset, if any.
-
-Save this content in a file named `README.md`, and it will serve as the documentation for your IMDb reviews sentiment analysis project.
